@@ -1,0 +1,5 @@
+---
+# tasks file for ansible-role-ubuntu-mysql
+- name: install mysql
+  apt: name=mysql-server-{{ ubuntu_mysql_version }}={{ ubuntu_mysql_full_version }}
+  become: True

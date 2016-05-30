@@ -1,0 +1,4 @@
+---
+# defaults file for ansible-role-ubuntu-mysql
+ubuntu_mysql_version: 5.7
+ubuntu_mysql_full_version: "{{ ubuntu_mysql_version }}.12-0ubuntu1"
