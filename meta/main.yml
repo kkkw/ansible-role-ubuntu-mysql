@@ -1,6 +1,6 @@
 galaxy_info:
   author: kkkw
-  description: inialize apt-get
+  description: install mysql
 
   license: MIT
 
